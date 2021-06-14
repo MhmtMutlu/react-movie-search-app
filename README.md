@@ -1,6 +1,6 @@
 # ⚛️ Movie Search App with ReactJS
 
-This project was an assignment from <a href="https://app.patika.dev/egitimler/frontend-web-development-patikasi">patika.dev</a> to to make up for deficiencies.
+This project was an assignment from <a href="https://app.patika.dev/egitimler/frontend-web-development-patikasi">patika.dev</a> to make up for deficiencies.
 
 <a href="https://react-moviesearch-application.netlify.app">Go to Website</a>
 
