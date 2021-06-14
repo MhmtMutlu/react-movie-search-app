@@ -1,41 +1,14 @@
-## Movie Search App
+# ⚛️ Movie Search App with ReactJS
 
-Bu ödevde OMDb API kullanarak film araması yapabilme ve filmleri favorilere ekleyebilme fonksiyonları olan bir React uygulaması geliştireceğiz.
+This project was an assignment from <a href="https://app.patika.dev/egitimler/frontend-web-development-patikasi">patika.dev</a> to to make up for deficiencies.
 
-### Home Page
+<a href="https://react-moviesearch-application.netlify.app">Go to Website</a>
 
-<p align="center">
-  <img src="movie-search-app.png" alt="Movie Search"/>
-</p>
+# 🧰 Toolbox
 
-### Favorites Page
-
-<p align="center">
-  <img src="favorites.png" alt="Favorites"/>
-</p>
-
-### Detail Page
-
-<p align="center">
-  <img src="detail.png" alt="Detail"/>
-</p>
-
-
-### Proje Nasıl Çalıştırılır
-
-- Projeyi fork'ladıktan ya da indirdikten sonra projenin bulunduğu klasörde "npm install" komutu ile gerekli paketlerin yüklenmesi gerekiyor.
-- OMDb API kullanabilmek için bir API key'e ihtiyacımız var. Email adresinizle [buradan](http://www.omdbapi.com/apikey.aspx) alabilirsiniz. API key'i MovieContext component'i içerisinde constant olarak tanımlanmış API_KEY'e atadıktan sonra OMDb API'ı kullanmaya başlayabilirsiniz.
-- Daha sonra "npm run start" komutu ile uygulama başlatılabilir.
-
-### Proje Hakkında
-
-Bu projede filmler ile alakalı anahtar kelimeyi arama kutucuğuna yazdıktan sonra OMDb API'ya atılan istek sayesinde film listeleme yapılıyor. Film kartlarının sağ üst köşesinde bulunan yıldız ikonu sayesinde filmleri favorilere ekleyebiliyoruz. Favoriler route'unda eklenilen bu filmleri listeleyebiliyoruz. Film kartına tıkladığımızda ise filme ait daha detaylı bilgiye ulaşabildiğimiz detay sayfası görüntüleniyor.
-
-### Yapılacaklar
-
-- Router.js'de routes içine favorite route'u için config objesi oluşturunuzu. (Hazır olan home route objesine benzer şekilde)
-- Film detay sayfasını görüntülemek için Home page içinde bulunan Link component'inde gerekli olan film id'sine göre dinamik routing işlemini gerçekleştiriniz.
-- Home sayfasından gönderilen film id'sini Detail sayfasında yakalayabilmek için React Router'ın useParams fonksiyonunu kullanınız.
-
-### NOT
-- Dinamik routing ödev olarak beklendiği için her film için sabit id'li bir film detay sayfası görüntülenmektedir. Görevler tamamlandıktan sonra dinamik bir routing yapısı olacaktır. 
+<ul style="list-style-type:disc">
+   <li><a href="https://reactjs.org">ReactJS</a></li>
+   <li><a href="https://reactjs.org/docs/hooks-intro.html">React Hooks</a></li>
+   <li><a href="http://www.omdbapi.com/apikey.aspx">OMDb API</a></li>
+   <li><a href="https://www.npmjs.com/package/axios">Axios</a></li>
+</ul>
